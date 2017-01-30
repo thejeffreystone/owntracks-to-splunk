@@ -50,7 +50,8 @@ def OwnTracks2Data(topic):
 def getTheHECInThere(data):
     http_event_collector_key = os.environ.get("HEC_KEY")
     http_event_collector_host = os.environ.get("HEC_HOST")
-    event = http_event_collector(http_event_collector_key, http_event_collector_host)
+    event = http_event_collector(http_event_collector_key,
+                                 http_event_collector_host)
     payload = {}
     payload.update({"index": "owntracks"})
     payload.update({"sourcetype": "owntracks"})
