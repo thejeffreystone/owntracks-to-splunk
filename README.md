@@ -20,6 +20,8 @@ A MQTT server with Owntracks data you want to get into Splunk of course.
 
 paho-mqtt (`pip install paho-mqtt`)
 
+dotenv (`pip install dotenv`)
+
 [George Starcher's Splunk-Class-httpevent](https://github.com/georgestarcher/Splunk-Class-httpevent)
 
 ###Configuration:
